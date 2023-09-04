@@ -1050,8 +1050,8 @@ ingerident.addEventListener('click',function(e){
   rowsearch.classList.remove('l');
 rowcategory.classList.remove('l');
 rowarea.classList.add('d-none');
-rowcontact.classList.remove('d-block');
-submitBtn.classList.remove('d-block');
+rowcontact.classList.remove('l');
+submitBtn.classList.remove('l');
 fetchsinger()
 ingerident.addEventListener('click',function(){
   location.reload()
