@@ -9,6 +9,7 @@ let rowcategory=document.querySelector('.row-category');
 let rowrecat=document.querySelector('.row-recat');
 let rowrecato=document.querySelector('.row-recato');
 let rowrecatdatalis=document.querySelector('.row-recatdatalis');
+let rowsearchdetails=document.querySelector('.row-searchdetails');
 let spinnre =document.querySelector('.loader');
 let z=document.querySelectorAll('.z');
 let parentallmeal =document.querySelector('.parent-allmeal');
@@ -227,7 +228,7 @@ rowlayer.classList.add('d-none')
 rowdeserch.addEventListener('click',function(e){
 
   if(e.target !== rowdeserch){
-rowsearch.classList.add('l');
+rowsearch.classList.add('k');
 fetchamealr(e.target.innerText);
     console.log(e.target.innerText)
     
@@ -241,7 +242,7 @@ try{
   spinn()
 const response =await fetch(`${fetchspecificmeal}${namemael}`);
 let data =await response.json();
-displayspmealmk(data.meals[0])
+displayspmealm(data.meals[0])
 console.log(data.meals[0]);
 
 
@@ -251,7 +252,7 @@ console.error("erro")
   spinn()
 }
 }
-function displayspmealmk(dat){
+function displayspmealm(dat){
   let box=``;
   let inger = ``;
   let tags = dat.strTags?.split(",");
@@ -309,7 +310,7 @@ ${tagsStr}
 
 box=dochtml;
 
-rowsearch.innerHTML =box;
+rowdeserch.innerHTML =box;
   
 }
 
@@ -419,7 +420,6 @@ box=dochtml;
 rowdeserch.innerHTML =box;
   });
 }
-
 
 
 
