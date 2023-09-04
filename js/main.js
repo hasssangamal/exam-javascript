@@ -1108,8 +1108,8 @@ for( var i = 0; i < nameproduct.length; i++){
 
       nameproduct.splice(i, 1); 
       console.log(nameproduct[0])
-       fetchsmal(nameproduct[0])
-  }
+    }
+    fetchsmal(nameproduct[0])
 
 }
 
