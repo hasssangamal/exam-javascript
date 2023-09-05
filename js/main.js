@@ -848,7 +848,7 @@ area.addEventListener('click',function(){
   location.reload()
  })
 })
-
+console.log("fmf");
 let fetcharea=`https://www.themealdb.com/api/json/v1/1/list.php?a=list`;
 const fetchseararea=async function(){
 try{
