@@ -1043,7 +1043,7 @@ ingerident.addEventListener('click',function(e){
 
 
   e.preventDefault();
-  rowingerdient.classList.remove('d-none');
+  rowingerdient.classList.add('l');
   row.classList.add('d-none');
   rowlayer.classList.add('d-none')
   form.classList.remove('l');
