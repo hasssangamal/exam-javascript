@@ -24,6 +24,21 @@ html {
   height: 100vh;
   background-color: #0d0d0d;
 }
+@media(max-width:560px){
+  .parent-header {
+
+    transform: translateX(-85%);
+    margin-top: 6px;
+  
+  }
+  .side-bar-linksblack {
+    width: 15%;
+  }
+  .side-bar-linkslight {
+    width: 85%;
+
+  }
+}
 .img-log {
   width: 4rem;
 }
