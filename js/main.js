@@ -423,7 +423,7 @@ Category.addEventListener("click", function (e) {
   row.classList.add("d-none");
   rowlayer.classList.add("d-none");
   rowcategory.classList.add("l");
-  rowingerdient.classList.add("d-none");
+  rowingerdient.classList.remove("l");
   form.classList.remove("l");
   rowsearch.classList.remove("l");
   rowarea.classList.add("d-none");
